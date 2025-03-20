@@ -1,0 +1,9 @@
+[virtualenvs]
+in-project = true
+create = true
+prefer-active-python = true
+
+[tool.poetry.source]
+name = "pypi-tuna"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+priority = "primary"
